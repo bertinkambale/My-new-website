@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:0;
+}
+.final-line{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+.block{
+    display: flex;
+    color:red;
+}
+h1{
+    padding-left: 10px;
+    padding-right:10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.search{
+    padding-right:10px;
+    color:grey;
+}
+.block2{
+
+    background-image: url(img/backgroundpicture.jpg);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.show-case{
+    margin-top:120px;
+    margin-bottom: 120px;
+    background-color: white;
+    width:1000px;
+}
+
+.button-class{
+    background-color: black;
+}
+.button-class button{
+    padding:10px 20px;
+    border:none;
+    color:white;
+    background-color: black;
+}
+.button-class button:hover{
+    background-color: grey;
+}
+.flight button{
+    background-color:rgb(255, 0, 0)
+}
+.for-label{
+    display:flex;
+}
+.for-label div{
+    margin-left:10px;
+}
+.for-label input{
+    width:450px;
+    padding:5px;
+    margin-top:5px;
+}
+.button-1{
+    padding:10px;
+}
+.button-1 button{
+    margin-bottom: 20px;
+    padding:10px 20px;
+    color:white;
+    border: none;
+    background-color: rgb(119, 115, 115);
+}
+.grid-display{
+    display: grid;
+    width:1000px;
+    grid-template-areas: 
+    "grid-1 grid-2 grid-3"
+    "grid-1 grid-4 grid-5";
+    grid-gap:0.6rem;
+    
+}
+.grid-1{
+    grid-area: grid-1;
+    background-image:url(img/cinqueterre.jpg);
+    color:white;
+    height:300px;
+    background-size: cover;
+    background-position: center;
+    width:600px;
+}
+.grid-2{
+    grid-area:grid-2;
+    background-image:url(img/newyork2.jpg);
+    color:white;
+    background-size: cover;
+    background-position: center;
+    width:300px;
+}
+.grid-3{
+    grid-area:grid-3;
+    background-image:url(img/paris.jpg);
+    color:white;
+    background-size: cover;
+    background-position: center;
+    width:300px;
+}
+.grid-4{
+    grid-area:grid-4;
+    background-image:url(img/pisa.jpg);
+    color:white;
+    background-position: center;
+    background-size: cover;
+    width:300px;
+}
+.grid-5{
+    grid-area:grid-5;
+    background-image:url(img/sanfran.jpg);
+    color:white;
+    background-size: cover;
+    background-position: center;
+    width:300px;
+}
+.block1{
+    display: flex;
+}
+.ocean img{
+    width:600px;
+}
+.ocean {
+    padding-left: 10px;
+}
